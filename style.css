@@ -1,0 +1,169 @@
+@import url('/css/first-styles.css');
+@import url('/css/font-styles.css');
+
+
+
+/* ------------------------ */
+/* -menu sec- */
+/* ------------------------ */
+
+.menu {
+  position: fixed;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  padding-bottom: 3rem;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.list__item {
+  font-family: 'Heebo';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.list__item:not(.list__item:first-child){
+  margin-left: 1rem;
+}
+
+.list__item:last-child{
+  margin-right: 1rem;
+}
+
+.list__item:hover{
+  color: #FF6464;
+}
+
+
+/* --------------------------- */
+/* -sec-1- */
+/* --------------------------- */
+.sec-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6rem 0 0 ;
+  font-family: 'Heebo';
+}
+
+.sec-1__body{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 50%;
+}
+
+.sec-1__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+.sec-1__text {
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+}
+.sec-1__btn  {
+  background: #FF6464;
+border-radius: 2px;
+padding: 9px 20px 9px;
+}
+
+.sec-1__btn a{
+  font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+/* -------------------- */
+/* -sec-2- */
+/* -------------------- */
+
+.sec-2 {
+  background-color:  #EDF7FA;
+  margin-top: 3rem;
+  font-family: 'Heebo';
+
+}
+.sec-2__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem 0;
+}
+.body__subtitle {
+  font-size: 22px;
+line-height: 60px;
+
+color: #21243D;
+}
+.body__posts {
+  font-size: 22px;
+  line-height: 60px;
+  color: #00A8CC;
+}
+.sec-2__row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.3125rem 9.25rem 2rem;
+
+}
+.sec-2__item-1 {
+  padding: 1.5rem;
+background-color: #fff;
+flex: 0 1 33.333%;
+}
+.item-1__title {
+  font-weight: 700;
+font-size: 26px;
+line-height: 38px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+.item-1__text span:first-child{
+  font-size: 18px;
+line-height: 26px;
+color: #21243D;
+padding: 2.5rem;
+}
+.item-1__text span:first-child::after{
+  content: '|';
+padding-left: 2rem;
+}
+
+.item-1__text span:last-child{
+  font-size: 18px;
+line-height: 26px;
+color: #21243D;
+}
+
+.item-1__subtext {
+}
+.sec-2__item-2 {
+  padding: 1.5rem;
+  flex: 0 1 33.333%;
+background-color: #fff;
+margin-left: 2rem;
+}
+.item-2__title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+
+  /* Dark Color */
+
+  color: #21243D;
+}
+.item-2__text {
+}
+.item-2__subtext {
+}
