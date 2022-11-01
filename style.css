@@ -146,8 +146,6 @@ line-height: 26px;
 color: #21243D;
 }
 
-.item-1__subtext {
-}
 .sec-2__item-2 {
   padding: 1.5rem;
   flex: 0 1 33.333%;
@@ -163,7 +161,103 @@ margin-left: 2rem;
 
   color: #21243D;
 }
-.item-2__text {
+
+/* sec-3 */
+/* ------------------- */
+
+.sec-3 {
+  margin: 1rem 9.25rem;
 }
-.item-2__subtext {
+.sec-3__title {
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+}
+.column__item {
+  display: flex;
+  flex: 0 1 50%;
+  margin-bottom: 3rem;
+}
+.item__image {
+  display: flex;
+}
+.item__body {
+  display: flex;
+  flex-flow: column wrap;
+  flex:0 1 33.333%;
+  padding-left: 2rem;
+}
+.body__subtitle {
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+}
+.body__subtext span:nth-child(1) {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 60px;
+color: #FFFFFF;
+background: #142850;
+border-radius:16px;
+padding:  0.4rem 1.2rem;
+}
+
+.body__subtext span:nth-child(2) {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+  }
+.body__text {
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+
+}
+
+/* foooter */
+/* --------------------- */
+
+footer{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logos__row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-bottom: 3rem;
+}
+
+.logos__row img:not(img:last-child){
+  margin-right: 2rem;
+}
+.logos__row img:not(img:first-child){
+  margin-right: 2rem;
+}
+
+footer p{
+margin: 0 1.6rem 3rem 0;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #21243D;
+
 }
