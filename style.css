@@ -21,11 +21,12 @@
   justify-content: end;
   align-items: center;
 }
-.list__item {
+.list__item > a{
   font-family: 'Heebo';
   font-weight: 700;
   font-size: 20px;
   line-height: 29px;
+  color: #21243D;
 }
 
 .list__item:not(.list__item:first-child){
@@ -36,7 +37,7 @@
   margin-right: 1rem;
 }
 
-.list__item:hover{
+.list__item a:hover{
   color: #FF6464;
 }
 

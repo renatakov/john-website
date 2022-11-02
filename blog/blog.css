@@ -1,0 +1,142 @@
+@import url('/css/first-styles.css');
+@import url('/css/font-styles.css');
+
+/* ---------------- */
+/* menu section */
+
+
+.menu {
+  position: fixed;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  padding-bottom: 3rem;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.list__item > a{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+}
+
+.list__item:not(.list__item:first-child){
+  margin-left: 1rem;
+}
+
+.list__item:last-child{
+  margin-right: 1rem;
+}
+
+.list__item a:hover{
+  color: #FF6464;
+}
+
+/* --------------- */
+/* main section */
+
+.blog {
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: start;
+  flex: 0 1 50%;
+  margin: 10rem 14.8765rem;
+}
+.blog__title {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+.blog__column {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+.column__item {
+  margin-bottom: 2rem;
+  border: 2px solid #E0E0E0;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.item__subtitle {
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+.item__text span:first-child {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #21243D;
+}
+
+.item__text span:first-child::after{
+content: '|';
+margin: 0 2rem;
+}
+
+.item__text span:last-child{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+.item__subtext {
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+padding-bottom: 1.8125rem;
+}
+
+/* foooter */
+/* ---------------- */
+footer{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logos__row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-bottom: 3rem;
+}
+
+.logos__row img:not(img:last-child){
+  margin-right: 2rem;
+}
+.logos__row img:not(img:first-child){
+  margin-right: 2rem;
+}
+
+footer p{
+margin: 0 1.6rem 3rem 0;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #21243D;
+
+}

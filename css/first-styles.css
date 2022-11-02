@@ -31,6 +31,10 @@ html, body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+body{
+  font-family: 'Heebo';
+
+}
 
 input, button, textarea {
   font-family: inherit;
