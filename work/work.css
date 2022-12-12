@@ -1,0 +1,128 @@
+@import url('/css/first-styles.css');
+@import url('/css/font-styles.css');
+
+/* ----------------------- */
+
+/* menu */
+/* --------------- */
+.menu {
+  position: fixed;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  padding-bottom: 3rem;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.list__item > a{
+  font-family: 'Heebo';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+}
+
+.list__item:not(.list__item:first-child){
+  margin-left: 1rem;
+}
+
+.list__item:last-child{
+  margin-right: 1rem;
+}
+
+.list__item a:hover{
+  color: #FF6464;
+}
+
+/* -------------------- */
+/* -----work main section */
+
+.work__section {
+  margin: 5rem;
+}
+.work__section-title {
+  font-weight: 700;
+font-size: 34px;
+line-height: 50px;
+color: #21243D;
+}
+.container-1__box {
+}
+.box__span {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 1rem;
+}
+
+.box__span>span{
+  font-weight: 900;
+  font-size: 18px;
+  background: #FF7C7C;
+border-radius: 16px;
+padding: 0.3rem 1.25rem;
+  color: #FFFFFF;
+}
+
+.box__span>p{
+  padding-left: 2rem;
+  font-weight: 400;
+font-size: 20px;
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+.work__section-container-2 {
+}
+.container-2__p {
+  font-size: 18px;
+line-height: 24px;
+}
+.container-2__img {
+}
+.work__section-container-3 {
+}
+.container-3__h3 {
+  font-weight: 500;
+font-size: 30px;
+line-height: 60px;
+/* or 200% */
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+.container-3__h4 {
+  font-weight: 500;
+font-size: 24px;
+line-height: 60px;
+/* or 250% */
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+.container-3__p {
+  font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.container-3__img1 {
+  margin-top: 2rem;
+}
+.container-3__img2 {
+  display: flex;
+margin: 4rem 0;
+}
+
+/* footer */
